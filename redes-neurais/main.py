@@ -123,7 +123,8 @@ def main() -> None:
     plt.xlabel("Número de Iterações")
     plt.ylabel("Erro quadrático médio")
     plt.title("Evolução do erro durante o treinamento")
-    plt.show()
+    plt.savefig("Treinamento.png")
+    plt.close()
 
 
 if __name__ == "__main__":
