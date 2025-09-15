@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  neuralnet:
+    build: .
+    container_name: neuralnet_container
+    volumes:
+      - .:/app
+    command: python main.py

@@ -1,0 +1,20 @@
+# cache e build local
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# virtualenv
+.venv/
+env/
+venv/
+
+# configs de IDE
+.vscode/
+.idea/
+
+# arquivos temporários
+*.log
+*.tmp
